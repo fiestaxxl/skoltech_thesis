@@ -48,7 +48,9 @@ nitrogen atoms and number of pyridine groups) is stored in smiles_prop.txt
 use train.py for training of the model:
 
 ```shell
-train.py --prop_file smiles_prop.txt --num_epochs 10 --num_prop 8 --save_dir 'path_to_save_checkpoints'
+train.py    --prop_file smiles_prop.txt                         #path to smiles file with properties
+            --num_epochs 10                                     #number of training epochs
+            --save_dir 'path_to_save_checkpoints'               #path to save checkpoints
 ```
 
 
