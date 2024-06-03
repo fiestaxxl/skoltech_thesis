@@ -66,7 +66,7 @@ generate.py --smiles 'CCCCC'                  #smiles of parent molecule for lat
 
 ## Contact
 
-Shengjie Luo (ivan.gurev@skoltech.ru)
+Ivan Gurev (ivan.gurev@skoltech.ru)
 
 Sincerely appreciate your suggestions on our work!
 
