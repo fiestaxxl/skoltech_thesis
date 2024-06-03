@@ -14,7 +14,7 @@ Conditional Variational Autoencoder is a versatile and effective moleculr model 
 git clone https://github.com/fiestaxxl/skoltech_thesis.git
 ```
 
-- Install the dependencies (Using [Anaconda](https://www.anaconda.com/), tested with CUDA version 11.0)
+- Install the dependencies
 
 ```shell
 cd ./skoltech_thesis/cvae
