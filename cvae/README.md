@@ -24,11 +24,9 @@ pip install rdkit pubchempy tensorflow_addons
 
 ## Checkpoints
 
-| Model | File Size | Update Date  | Valid MAE on PCQM4Mv2 | Download Link                                            |
-| ----- | --------- | ------------ | --------------------- | -------------------------------------------------------- |
-| L12   | 189MB     | Oct 04, 2022 | 0.0785                | https://1drv.ms/u/s!AgZyC7AzHtDBdWUZttg6N2TsOxw?e=sUOhox |
-| L18   | 270MB     | Oct 04, 2022 | 0.0772                | https://1drv.ms/u/s!AgZyC7AzHtDBdrY59-_mP38jsCg?e=URoyUK |
-| L12_old | 189MB   | Mar 31, 2023 | 0.0787                | https://1drv.ms/u/s!AgZyC7AzHtDBesDk9tZK1yvbtzE?e=5H91Zq |
+| Number of properties | Update Date  | Download Link                                            |
+| -------------------- | ------------ |--------------------------------------------------------  |
+| 8 properties         | Mar 12, 2024 | https://drive.google.com/drive/folders/1HOzx99rCgsYvi_CC77Ym35HDTJtBFOid?usp=sharing |
 
 ```shell
 # create paths to checkpoints for evaluation
