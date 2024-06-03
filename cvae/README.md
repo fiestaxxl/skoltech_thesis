@@ -40,9 +40,17 @@ mkdir checkpoints
 of aromatic rings, number of aliphatic rings, number of primary amine groups, number of aromatic
 nitrogen atoms and number of pyridine groups) is stored in smiles_prop.txt
 
--Raw smiles data is stored at smiles.txt
+- Raw smiles data is stored at smiles.txt
 
-- You can also directly execute the evaluation/training code to process data from scratch.
+
+## Training 
+
+use train.py for training of the model:
+
+```shell
+train.py --prop_file smiles_prop.txt --num_epochs 10 --num_prop 8 --save_dir 'path_to_save_checkpoints'
+```
+
 
 ## Evaluation
 
