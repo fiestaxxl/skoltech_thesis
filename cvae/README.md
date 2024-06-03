@@ -30,24 +30,17 @@ pip install rdkit pubchempy tensorflow_addons
 
 ```shell
 # create paths to checkpoints for evaluation
-
-# download the above model weights (L12.pt, L18.pt) to ./
-mkdir -p logs/L12
-mkdir -p logs/L18
-mv L12.pt logs/L12/
-mv L18.pt logs/L18/
+mkdir checkpoints
+# download the above model weights to ./checkpoints
 ```
 
 ## Datasets
 
-- Preprocessed data: [download link](https://1drv.ms/u/s!AgZyC7AzHtDBeIDqE61u1ZEMv_8?e=3g428e)
+- Preprocessed data with computed 8 properties (Molecular Weight, LogP, number of heteroatoms, number
+of aromatic rings, number of aliphatic rings, number of primary amine groups, number of aromatic
+nitrogen atoms and number of pyridine groups) is stored in smiles_prop.txt
 
-  ```shell
-  # create paths to datasets for evaluation/training
-  
-  # download the above compressed datasets (pcqm4mv2-pos.zip) to ./
-  unzip pcqm4mv2-pos.zip -d ./datasets
-  ```
+-Raw smiles data is stored at smiles.txt
 
 - You can also directly execute the evaluation/training code to process data from scratch.
 
